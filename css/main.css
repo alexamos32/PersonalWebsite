@@ -5,18 +5,20 @@ body, html {
 }
 .bg-1{
  /* The image used */
- background-image: url('../img/background.jpg');
+ background-image: url('../img/background-2.jpg');
 
 }
 .profile-pic{
+    
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    width: 60%;
+    max-width: 200px;
+    
     
 
 }
 hr{
-    width: 50%;
+    width: 60%;
     color: white;
 }
 
@@ -38,28 +40,53 @@ hr{
    
 
 }
+
+.logos{
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
 .bg-2{
     /* The image used */
- background-image: url('../img/AlexGradPhoto.jpg');
+ background-image: url('../img/background.jpg');
  height: 80%;
 }
-.Landing-Block{
+.profile-box{
 
-
+    padding: 4%;
     text-align: center;
+
+    /* Settint the */
     border-radius: 50px;
-    height: 80vh;
-    width: 30%;
+    height: 70%;
+    width: 70%;
+
+    
     margin: auto;
     
     background-color: rgba(49, 56, 72, 0.7);
 }
-.name-title{
-    text-decoration-color: white;
+
+#name{
+    font-family: 'Muli', sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 0%;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-h1{
-    text-decoration-color: white;
+#profile-bio{
+    margin-top: 20px;
+    color: white;
+    font-family: Arial;
+}
+
+h5{
+    font-family: sans-serif;
+    margin-top: 4px;
+    color: white;
 }
 
 .test{
